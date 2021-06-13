@@ -19,13 +19,21 @@
   transition-property: background-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    outline: none;
+    & .social-list-icon {
+      fill: var(--secondary-color);
+    }
+  }
 }
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-  outline: none;
-}
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--secondary-color);
-}
+// .social-list-link:hover,
+// .social-list-link:focus {
+//   background-color: var(--accent-color);
+//   outline: none;
+// }
+// .social-list-link:hover .social-list-icon,
+// .social-list-link:focus .social-list-icon {
+//   fill: var(--secondary-color);
+// }

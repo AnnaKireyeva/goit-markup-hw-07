@@ -266,7 +266,7 @@ body {
   padding-top: 94px;
   padding-bottom: 93px;
 }
-.benefits-list {
+. {
   display: flex;
   justify-content: space-between;
 }

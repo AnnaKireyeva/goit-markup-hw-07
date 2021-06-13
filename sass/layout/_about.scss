@@ -1,17 +1,17 @@
-.about-section {
+.about {
   padding-bottom: 94px;
 }
-.about-section-title {
+.about__title {
   margin-bottom: 48px;
 }
-.about-section-list {
+.about__list {
   display: flex;
   justify-content: space-between;
 }
-.about-section-item-wrapper {
+.about-image__wrapper {
   position: relative;
 }
-.about-section-img-text {
+.about__img-caption {
   position: absolute;
   width: 100%;
   height: 70px;
