@@ -1,6 +1,5 @@
 .social-contacts {
   display: flex;
-  // justify-content: space-between;
 }
 .social-contacts__item:not(:last-child) {
   margin-right: 10px;
@@ -41,17 +40,5 @@
   &:focus {
     background-color: var(--accent-color);
     outline: none;
-    // & .social-contacts__icon {
-    //   fill: var(--secondary-color);
-    // }
   }
 }
-// .social-list-link:hover,
-// .social-list-link:focus {
-//   background-color: var(--accent-color);
-//   outline: none;
-// }
-// .social-list-link:hover .social-list-icon,
-// .social-list-link:focus .social-list-icon {
-//   fill: var(--secondary-color);
-// }
