@@ -2,14 +2,14 @@
   padding-top: 94px;
   padding-bottom: 89px;
 }
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: space-between;
 }
-.client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,12 +24,12 @@
   &:focus {
     border: 1px solid var(--accent-color);
     outline: none;
-    & .client-icon {
+    & .clients__icon {
       fill: var(--accent-color);
     }
   }
 }
-.client-icon {
+.clients__icon {
   fill: var(--icons-color);
   transition-property: fill;
   transition-duration: var(--transition-duration);
