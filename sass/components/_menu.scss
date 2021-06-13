@@ -20,7 +20,7 @@
     outline: none;
   }
 }
-.menu__link.current {
+.menu__link_current {
   color: var(--accent-color);
   &::after {
     position: absolute;

@@ -23,7 +23,7 @@
                 <a class="logo header__logo logo_theme_light link" href="/"><span class="logo__blue-part">Web</span>Studio</a>
                 <ul class="menu list">
                     <li class="menu__item"><a class="menu__link link" href="./index.html">Студия</a></li>
-                    <li class="menu__item"><a class="menu__link link current" href="">Портфолио</a></li>
+                    <li class="menu__item"><a class="menu__link link menu__link_current" href="">Портфолио</a></li>
                     <li class="menu__item"><a class="menu__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
@@ -184,50 +184,50 @@
             </div>
         </section>                     
     </main>
-    <footer>
-        <div class="footer-container container">
-            <div class="footer-contacts">
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__contacts">
                 <a class="logo footer__logo logo_theme_dark link" href="/"><span class="logo__blue-part">Web</span>Studio</a>
                 <address>
-                    <p class="adress-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    <p class="footer__adress-text">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="list">
-                        <li class="footer-list-item">
-                            <a class="footer-list-item-link link"
+                        <li class="footer__list-item">
+                            <a class="footer__contact-link link"
                                 href="mailto:info@example.com">info@example.com</a>
                         </li>
                         <li class="footer-list-item">
-                            <a class="footer-list-item-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                            <a class="footer__contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
-            <div class="join">
-                <p class="join-text">Присоединяйтесь</p>
-                <ul class="join-list list">
-                    <li class="join-list-item">
-                        <a href="#" class="join-link link social-list-link">
-                            <svg class="join-icon social-list-icon" width="20" height="20">
+            <div class="footer__social-contacts">
+                <p class="footer__join-text">Присоединяйтесь</p>
+                <ul class="social-contacts  list">
+                    <li class="social-contacts__item">
+                        <a href="#" class="social-contacts__link social-contacts__link_theme_dark link">
+                            <svg class="social-contacts__icon social-contacts__icon_theme_dark" width="20" height="20">
                                 <use href="./img/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="join-list-item">
-                        <a href="#" class="join-link link social-list-link">
-                            <svg class="join-icon social-list-icon" width="20" height="20">
+                    <li class="social-contacts__item">
+                        <a href="#" class="social-contacts__link social-contacts__link_theme_dark link">
+                            <svg class="social-contacts__icon social-contacts__icon_theme_dark" width="20" height="20">
                                 <use href="./img/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="join-list-item">
-                        <a href="#" class="join-link link social-list-link">
-                            <svg class="join-icon social-list-icon" width="20" height="20">
+                    <li class="social-contacts__item">
+                        <a href="#" class="social-contacts__link social-contacts__link_theme_dark link">
+                            <svg class="social-contacts__icon social-contacts__icon_theme_dark" width="20" height="20">
                                 <use href="./img/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="join-list-item">
-                        <a href="#" class="join-link link social-list-link">
-                            <svg class="join-icon social-list-icon" width="20" height="20">
+                    <li class="social-contacts__item">
+                        <a href="#" class="social-contacts__link social-contacts__link_theme_dark link">
+                            <svg class="social-contacts__icon social-contacts__icon_theme_dark" width="20" height="20">
                                 <use href="./img/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -235,14 +235,14 @@
                 </ul>
             </div>
             <!----------FOOTER FORM----------->
-            <form class="subscription">
+            <form class="footer__form">
                 <div class="subscription-wraper">
-                    <label class="subscription-title">Подпишитесь на рассылку
-                        <input type="email" name="user-mail" class="subscription-form-input" placeholder="E-mail" required />
+                    <label class="subscription__title">Подпишитесь на рассылку
+                        <input type="email" name="user-mail" class="subscription__input" placeholder="E-mail" required />
                     </label>
                 </div>
-                <button type="submit" class="subscription-btn">Подписаться
-                    <svg class="subscription-btn-icon" width="24" height="24">
+                <button type="submit" class="subscription__btn">Подписаться
+                    <svg class="subscription__btn-icon" width="24" height="24">
                         <use href="./img/sprite.svg#icon-send"></use>
                     </svg>
                 </button>
